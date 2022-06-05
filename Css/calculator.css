@@ -1,0 +1,36 @@
+.contenido {
+    display: grid;
+    background-color: white;
+    grid-template-rows: repeat(4, 25%);
+    box-shadow: 5px 5px 5px grey;
+    padding: 5px;
+}
+
+.formulario {
+    margin-top: 10px;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 915px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.titulo {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#usuarios p {
+    border-bottom: 1px solid #ced4da;
+}
+
+#usuarios {
+    overflow: hidden;
+}
+
+#usuarios:hover {
+    overflow-y: overlay;
+}
